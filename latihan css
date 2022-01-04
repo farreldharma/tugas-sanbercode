@@ -1,0 +1,32 @@
+header{
+    background-color: aqua;
+    display: flex;
+    justify content : space-between;
+}
+
+body{
+    background-image: url(../img/pattern.jpg);
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+}
+ a{
+     text-decoration: none;
+ }
+ 
+ main{
+     background-color: white ;
+     margin: 5% 5% 5%;
+      padding: 20px;
+ }
+h1{
+    text-align: center;
+}
+
+article{
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+}
