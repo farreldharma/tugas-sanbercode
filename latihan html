@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>SanberBook</title>
+  </head>
+  <body>
+    <h1>SanberBook</h1>
+    <h2>Social Media Developer Santai Berkualitas</h2>
+    <p>Belajar dan Berbagi agar hidup santai dan berkualitas
+      <h3>Benefit Join di SanberBook</h3>
+      <ul>
+        <li>Mendapatkan motivasi dari sesama developer</li>
+        <li>Sharing knowledge dari mastah Sanbar</li>
+        <li>Dibuat oleh calon developer terbaik</li>
+      </ul>
+ <h3>Cara Bergabung ke Sanberbook</h3>
+ <ol>
+   <li>Mengunjungi Website Ini</li>
+     <li>Mendaftar <a href="file:///Users/farrelmagnusdharma/Desktop/latihan%20html/Sign%20Up%20Form.html" target="_blank">di Forum Ini!</a> </li>
+       <li>Selesai!</li>
+       </ol>
+       
+       
+       <html>
+<head>
+    <title>Sign Up Form</title>
+</head>
+<h1> Buat Account Baru!</h1>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Sign Up Form</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Last Name:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        
+        <p>
+            <p> Gender :</p>
+            <form action="/action_page.php">
+                <input type="checkbox" id="Male" name="Gender1" value="Male">
+                <label for="Gender1"> Male</label><br>
+                <input type="checkbox" id="Gender2" name="Gender2" value="Female">
+                <label for="Gender2"> Female</label><br>
+                <input type="checkbox" id="Gender3" name="Gender3" value="Other">
+                <label for="Gender 3"> Other</label><br><br>
+                </form>
+        </p>
+        <p>
+            <label>Nationality:</label>
+            <select name="agama">
+                <option value="Indonesian">Indonesian</option>
+                <option value="Malaysian">Malaysian</option>
+                <option value="Australian">Australian</option>
+                <option value="American">American</option>
+            </select>
+        </p>
+        <p> Languange Spoken :</p>
+            <form action="/action_page.php">
+                <input type="checkbox" id="Lang1" name="Lang1" value="Bahasa Indonesia">
+                <label for="Languange1"> Bahasa Indonesia</label><br>
+                <input type="checkbox" id="Lang2" name="Lang2" value="English">
+                <label for="Lang2"> English</label><br>
+                <input type="checkbox" id="Lang3" name="Lang3" value="Other">
+                <label for="Lang 3"> Other</label><br><br>
+                </form>
+        <p>
+            <label>Bio:</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <button onclick="document.location='default.asp'">Sign Up</button>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+<html>
+  <head>
+    <title> SELAMAT DATANG!</title>
+  </head>
+  <body>
+      <h1> SELAMAT DATANG!</h1>
+      <h2>Terima Kasih telah bergabung  Sanberboook. Social Media kita bersaama!</h2>
+  </body>
